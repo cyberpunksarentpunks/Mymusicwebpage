@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+
+.eq-imgs {
+    width: 60px;
+    border-radius: 20px;
+    height: 50px;
+    
+}
+
+.text-center {
+    text-align: center;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background: #121212d9;
+    margin: 30px auto;
+    width: 800px;
+    border: 2px;
+    border-radius: 15px;
+    font-size: 75px;
+    color: rgb(255, 233, 233)
+
+    
+    
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background: #121212d9;
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+}
+
+/* barva textoveho pole*/
+.container {
+    background: rgba(36, 36, 36, 0.8);
+    width: 700px;
+    border: 2px solid darkslategrey;
+    border-radius: 10px;
+    margin: 60px auto;
+    padding: 25px;
+}
+
+.info {
+    width: 600px;
+    margin: 0 auto;
+
+}
+
+body {
+    color: whitesmoke;
+    background-color: rgba(36, 3, 3, 0.9);
+    background-image: url("Recording_studio_vector_1.jpg");
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: rgba(39, 39, 39, 0.9)
+}
+
+nav ul {
+    width: 1020px;
+    margin: 0px auto;
+    align-content: center;
+}
+
+nav ul li {
+    width: 145px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+
+}
+
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Odkazy dole na hlavní straně*/
+.down-ref {
+   text-decoration: none;
+   color: whitesmoke;
+   background: rgb(41, 39, 39); 
+   text-shadow: 1px 1px 1px rgb(102, 14, 51);
+}
+
+.equipment-style {
+    font-size: 40px;
+    background: #ffffff;
+}
+
+/*styl názvu kapel */
+.reference-color {
+    background: #5a67ffc4;
+    color: #ffffff;
+    font-weight: 900;
+    border-radius: 20px;
+}
+
